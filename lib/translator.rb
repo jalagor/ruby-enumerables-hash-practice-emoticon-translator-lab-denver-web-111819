@@ -7,7 +7,7 @@ def load_library(path)
     emote_hash[:get_meaning][value[1]] = key 
     emote_hash[:get_emoticon][value[0]] = value[1]
   end
-  return
+  return emote_hash
 
 end
 
